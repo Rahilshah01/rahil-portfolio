@@ -312,7 +312,7 @@ export default function DataSciencePortfolio() {
               </div>
               <div className="text-center">
                 <div className="text-xs sm:text-sm text-gray-400 mb-1">Email Me</div>
-                <div className="font-semibold text-sm sm:text-base">rahilshah209.rs@gmail.com</div>
+                <div className="font-semibold text-sm sm:text-base">rahilshah159@gmail.com</div>
               </div>
             </div>
 
