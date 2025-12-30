@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import { ChevronDown, Github, Linkedin, FolderDot, Brain, TrendingUp, Code, Cloud, Mail, Phone, MapPin, ExternalLink } from 'lucide-react';
-import profilePic from './assets/your-profile-image.jpg'
+import profilePic from './assets/your-profile-image.JPG'
 import trafficProjectImg from './assets/urban-traffic.jpg';
 import resumeFile from './assets/Rahil_Shah_Resume.pdf';
 
