@@ -111,7 +111,7 @@ export default function DataSciencePortfolio() {
               download="Rahil_Shah_Resume.pdf"
               className="px-5 py-2 border border-cyan-400 text-cyan-400 rounded hover:bg-cyan-400 hover:text-slate-900 transition inline-block text-center"
             >
-              Download CV
+              Download Resume
             </a>
           </div>
         </div>
