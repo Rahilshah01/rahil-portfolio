@@ -139,7 +139,7 @@ export default function DataSciencePortfolio() {
             <div className="flex flex-wrap gap-3 sm:gap-4">
               <button 
                 onClick={() => scrollToSection('projects')}
-                className="px-5 sm:px-6 py-2.5 sm:py-3 bg-cyan-400 text-slate-900 rounded-lg font-semibold hover:bg-cyan-300 transition text-sm sm:text-base"
+                className="px-5 sm:px-6 py-2.5 sm:py-3 border border-slate-600 rounded-lg font-semibold hover:border-slate-500 transition flex items-center gap-2 text-sm sm:text-base"
               >
               <FolderDot size={20} />
                 View Projects
