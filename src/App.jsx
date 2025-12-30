@@ -72,7 +72,7 @@ export default function DataSciencePortfolio() {
       title: "Urban Traffic Vision",
       description: "Computer vision system for counting vehicles and detecting congestion patterns in city traffic footage using YOLOv8.",
       image: trafficProjectImg,
-      tags: ["OpenCV", "YOLO", "FastAPI", "Docker"],
+      tags: ["OpenCV", "YOLOv8", "Supervision", "Matplotlib"],
       category: "Computer Vision",
       codeLink: "https://github.com/Rahilshah01/urban-traffic-vision-yolov8",
       liveLink: null
