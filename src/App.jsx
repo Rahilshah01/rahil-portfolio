@@ -95,6 +95,23 @@ export default function DataSciencePortfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
       <Analytics />
+      <style>{`
+        * {
+          -webkit-tap-highlight-color: transparent;
+        }
+        body {
+          background-color: #0f172a !important;
+          color: #ffffff !important;
+        }
+        button, a {
+          color: inherit !important;
+          background-color: transparent !important;
+        }
+        button:active, a:active {
+          opacity: 0.8;
+        }
+      `}</style>
+
       {/* Navigation */}
       <nav className="fixed top-0 w-full bg-slate-900/80 backdrop-blur-md border-b border-slate-700/50 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 sm:py-4 flex items-center justify-between">
@@ -140,17 +157,20 @@ export default function DataSciencePortfolio() {
               <button 
                 onClick={() => scrollToSection('projects')}
                 className="px-5 sm:px-6 py-2.5 sm:py-3 border border-slate-600 rounded-lg font-semibold hover:border-slate-500 transition flex items-center gap-2 text-sm sm:text-base"
+                style={{borderColor: '#475569', color: '#ffffff'}}
               >
               <FolderDot size={20} />
                 View Projects
               </button>
               <button className="px-5 sm:px-6 py-2.5 sm:py-3 border border-slate-600 rounded-lg font-semibold hover:border-slate-500 transition flex items-center gap-2 text-sm sm:text-base"
-                onClick={() => window.open('https://github.com/Rahilshah01', '_blank')}>
+                onClick={() => window.open('https://github.com/Rahilshah01', '_blank')}
+                style={{borderColor: '#475569', color: '#ffffff'}}>
                 <Github size={20} />
                 GitHub
               </button>
               <button className="px-5 sm:px-6 py-2.5 sm:py-3 border border-slate-600 rounded-lg font-semibold hover:border-slate-500 transition flex items-center gap-2 text-sm sm:text-base"
-                onClick={() => window.open('https://www.linkedin.com/in/rahil-shah-067b74233/', '_blank')}>
+                onClick={() => window.open('https://www.linkedin.com/in/rahil-shah-067b74233/', '_blank')}
+                style={{borderColor: '#475569', color: '#ffffff'}}>
                 <Linkedin size={20} />
                 LinkedIn
               </button>
@@ -226,7 +246,8 @@ export default function DataSciencePortfolio() {
               </p>
             </div>
             <button className="px-4 sm:px-5 py-2 border border-slate-600 rounded-lg hover:border-slate-500 transition flex items-center gap-2 text-sm whitespace-nowrap"
-              onClick={() => window.open('https://github.com/Rahilshah01', '_blank')}>
+              onClick={() => window.open('https://github.com/Rahilshah01', '_blank')}
+              style={{borderColor: '#475569', color: '#ffffff'}}>
               View All on GitHub
               <ExternalLink size={16} />
             </button>
