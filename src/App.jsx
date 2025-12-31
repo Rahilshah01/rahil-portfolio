@@ -101,7 +101,7 @@ export default function DataSciencePortfolio() {
           <div className="flex items-center gap-2 text-lg sm:text-xl font-bold">
             <span className="text-cyan-400">&gt;_</span>
             <span className="text-white">Rahil</span>
-            <span className="text-cyan-400">.Shah</span>
+            <span className="text-cyan-400">Shah</span>
           </div>
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
             <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-white transition text-sm">About</button>
