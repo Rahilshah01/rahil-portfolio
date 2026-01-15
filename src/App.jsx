@@ -95,6 +95,9 @@ export default function DataSciencePortfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900 text-white">
       <Analytics />
+      <title>Rahil Shah - Data Scientist | Machine Learning Engineer for Hire</title>
+      <meta name="description" content="Hire Rahil Shah, a skilled Data Scientist and Machine Learning Engineer. Expert in Python, TensorFlow, NLP, and AI systems." />
+      <meta name="keywords" content="data scientist for hire, machine learning engineer, AI engineer, Python developer, Rahil Shah" />
       <style>{`
         * {
           -webkit-tap-highlight-color: transparent;
